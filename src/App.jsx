@@ -6,9 +6,9 @@ function App() {
 	const [count, setCount] = useState(0);
 
 	return (
-		<div class="container">
+		<div className="container">
 			<label for="standard-select">Standard Select</label>
-			<div class="select">
+			<div className="select">
 				<select id="standard-select">
 					<option value="Option 1">Option 1</option>
 					<option value="Option 2">Option 2</option>
@@ -17,7 +17,7 @@ function App() {
 					<option value="Option 5">Option 5</option>
 					<option value="Option length">Option that has too long of a value to fit</option>
 				</select>
-				<span class="focus"></span>
+				<span className="focus"></span>
 			</div>
 		</div>
 	);
